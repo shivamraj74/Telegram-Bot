@@ -1,5 +1,5 @@
 
-#What is a Telegram Bot?
+# What is a Telegram Bot?
 
 Bots are third-party applications that run inside Telegram. Users can interact with bots by sending them messages, commands and inline requests. 
 You control your bots using HTTPS requests to Telegram Bot API.
@@ -53,19 +53,28 @@ to generate a requirements.txt file.
 1. Setup Git repository (Download)
 
 Initialize a new git repository in your project folder.
+
 -git init
+
 Add all untracked files to git repository by:
 -git add .
+
 Commit the changes to git repository by:
 -git commit -m "YOUR_COMMIT_MESSAGE_HERE"
+
 2. Create a new heroku account
+
 3. Download Heroku CLI.
+
 4. Create a new Heroku app.
 heroku create <your-app-name>
+
 5. Edit app.py and set webhook URL as your Heroku app's URL
 bot.set_webhook("https://telegrambot.herokuapp.com/" + TOKEN)
+
 6. Finally, you are ready to deploy your app by pushing your local git repository to the remote heroku app's git repository by:
 git push heroku master
+
 7. To check the logs of your heroku app:
 heroku logs
 

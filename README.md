@@ -57,9 +57,11 @@ Initialize a new git repository in your project folder.
 -git init
 
 Add all untracked files to git repository by:
+
 -git add .
 
 Commit the changes to git repository by:
+
 -git commit -m "YOUR_COMMIT_MESSAGE_HERE"
 
 2. Create a new heroku account
@@ -73,6 +75,7 @@ heroku create <your-app-name>
 bot.set_webhook("https://telegrambot.herokuapp.com/" + TOKEN)
 
 6. Finally, you are ready to deploy your app by pushing your local git repository to the remote heroku app's git repository by:
+
 git push heroku master
 
 7. To check the logs of your heroku app:

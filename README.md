@@ -69,15 +69,14 @@ Commit the changes to git repository by:
 3. Download Heroku CLI.
 
 4. Create a new Heroku app.
-heroku create <your-app-name>
+  heroku create <your-app-name>
 
 5. Edit app.py and set webhook URL as your Heroku app's URL
-bot.set_webhook("https://telegrambot.herokuapp.com/" + TOKEN)
+  bot.set_webhook("https://telegrambot.herokuapp.com/" + TOKEN)
 
 6. Finally, you are ready to deploy your app by pushing your local git repository to the remote heroku app's git repository by:
-
-git push heroku master
+  git push heroku master
 
 7. To check the logs of your heroku app:
-heroku logs
+  heroku logs
 

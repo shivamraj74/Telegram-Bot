@@ -80,3 +80,5 @@ Commit the changes to git repository by:
 7. To check the logs of your heroku app:
   heroku logs
 
+# Screenshots of working project!
+

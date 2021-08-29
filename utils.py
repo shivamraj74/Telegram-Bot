@@ -2,7 +2,7 @@ import os
 from gnewsclient import gnewsclient
 import dialogflow_v2 as dialogflow
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "client.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "client.json
 dialogflow_session_client = dialogflow.SessionsClient()
 PROJECT_ID = "To Change"
 
